@@ -267,5 +267,7 @@ let questions = [
             'Forces an element to be positioned relatively.'
         ],
         answer: 1
-    },
+    }
 ]
+
+console.log(questions);
