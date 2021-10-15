@@ -1,4 +1,4 @@
-const startingMinutes = 2.25; // minutes for the quiz. you can also use deciamls 2.5 or 2.25
+const startingMinutes = 3 // minutes for the quiz. you can also use deciamls 2.5 or 2.25
 let startingSeconds = startingMinutes * 60; //total seconds to use for timer
 const timerEl = document.getElementById('timer');
 
@@ -16,5 +16,6 @@ myTimer = () => {
     }
 };
 
-setInterval(myTimer, 1000);
-
+$('#start-quiz').click(function() {
+    setInterval(myTimer, 1000);
+});
